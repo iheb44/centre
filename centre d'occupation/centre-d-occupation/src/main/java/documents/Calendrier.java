@@ -1,4 +1,4 @@
-package com.example.centre.d.occupation;
+package documents;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.data.annotation.CreatedDate;
