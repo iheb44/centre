@@ -1,4 +1,6 @@
 package com.example.centre.d.occupation;
 
-public interface EmployeRepository {
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface EmployeRepository extends MongoRepository<Employe,String> {
 }

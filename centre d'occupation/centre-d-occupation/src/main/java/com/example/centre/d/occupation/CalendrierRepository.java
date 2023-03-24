@@ -1,4 +1,6 @@
 package com.example.centre.d.occupation;
 
-public interface CalendrierRepository {
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface CalendrierRepository extends MongoRepository<Calendrier,String> {
 }
