@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/centre d'occupation.iml" filepath="$PROJECT_DIR$/.idea/centre d'occupation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/centre-d-occupation/centre-d-occupation.iml" filepath="$PROJECT_DIR$/centre-d-occupation/centre-d-occupation.iml" />
+    </modules>
+  </component>
+</project>
