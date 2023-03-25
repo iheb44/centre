@@ -18,8 +18,6 @@ public class Enfants {
     private String postalCode;
     @DBRef
     private Responsable Resp;
-    @JsonFormat(pattern = "dd-MM-yyyy", timezone = "GMT+8")
-    private Date birthday;
     @CreatedDate
     private Date createdDate;
     @LastModifiedDate

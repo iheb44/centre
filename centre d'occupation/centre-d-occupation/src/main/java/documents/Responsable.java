@@ -21,8 +21,6 @@ public class Responsable extends Personne {
     private String ResponsableNumber;
     @DBRef
     private Groupe groupe;
-    @JsonFormat(pattern = "dd-MM-yyyy", timezone = "GMT+8")
-    private Date birthday;
     @CreatedDate
     private Date createdDate;
     @LastModifiedDate

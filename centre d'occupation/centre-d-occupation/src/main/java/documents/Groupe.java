@@ -17,8 +17,6 @@ public class Groupe {
     private List<Enfants> Grpenfants;
     @DBRef
     private Responsable resp;
-    @JsonFormat(pattern = "dd-MM-yyyy", timezone = "GMT+8")
-    private Date birthday;
     @CreatedDate
     private Date createdDate;
     @LastModifiedDate
